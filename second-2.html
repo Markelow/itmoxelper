@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<title>Второй отборочный тур</title>
+		<link rel="stylesheet" href="css/styles.css" type="text/css">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap" rel="stylesheet">
+		<style>
+		footer{
+			margin-top: 80px;
+  	  background: #7e7e7e;
+  	  color: #dbdbdb;
+  	  font-size: 11px;
+			position:absolute;
+		}
+		</style>
+		<script>
+		function myFunction(){
+		 var num = document.getElementById("myinput").value;
+		 
+		 if(num == 2){
+		 document.getElementById("answ").innerHTML = "верно";
+		}
+		else {
+		 document.getElementById("answ").innerHTML = "неверно";
+		}}
+    </script>
+	</head>
+	<body>
+		<header>
+			<div class="wrapper">
+				<div class="header-top">
+					<div class="logo">
+						<a href="#">Logo
+							<span></span>
+							<span></span>
+							<span></span>
+						</a>
+					</div>
+					<div class="name">
+						<h1>Подготовка к олимпиадам по информатике</h1>
+					</div>
+					<div class="social">
+						<a href="#">
+							<img src="images/ff.png" alt="">
+						</a>
+						<a href="">
+							<img src="images/inst.png" alt="">
+						</a>
+						<a href="">
+							<img src="images/wk.png" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="header-menu">
+				<div class="wrapper">
+					<nav>
+						<ul class="top-menu">
+							<li><a href="index.html">Главная</a></li>
+							<li><a href="final.html">Заключительный этап</a></li>
+							<li><a href="first.html">Первый отборочный тур</a></li>
+							<li><a href="second.html">Второй отборочный тур</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<section class="content-top">
+			<div class="wrapper">
+				<div class="wrapper-block">
+					<div class="left-sidebar">
+						<h2>Меню</h2>
+						<aside>
+							<nav>
+								<ul class="aside-menu">
+									<li><a href="second-1.html">Электронные таблицы</a></li>
+									<li><a href="second-2.html">Телекоммуникационные технологии</a></li>
+								</ul>
+							</nav>
+						</aside>
+					</div>
+					<div class="conent-first">
+						<h2>Телекоммуникационные технологии</h2>
+						<div class="content-wrap">
+							<div class="content-main">
+								<h3>Задание</h3>
+								<p>Студенты Иван и Петр изучают сетевые технологии. В среде моделирования они собрали прототип системы DNS. В их модели за каждый домен отвечает отдельный DNS-сервер. Кэширование отсутствует. В модель добавлены клиентский компьютер C1 и обслуживающий его DNS сервер – D1.
+									Клиентский компьютер запросил IP-адрес по доменному имени «dataserver.dom3.dom2.dom1.local.» Разрешение имени произошло успешно.
+									</p>
+									<p>
+									Определите суммарное количество запросов
+									 и ответов, которые совершил и получил сервер D1 при разрешении имени, при условии, что нерекурсивными оказались только сервера доменов «.» и «local».
+									 При подсчете не учитывать диалог между D1 и С1.
+									 </p>
+									 <p>
+									 В ответ укажите целое число.
+									</p>
+								<div class="ansver">
+									<input type="text" value="" id="myinput">
+								</div>
+								<div class="btn">
+									<button onclick="myFunction()">Отправить</button>
+									<p id = "answ"></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="wrapper">
+				<div class="header-top">
+					<div class="logo-footer">
+						<a href="#">Logo
+							<span></span>
+							<span></span>
+							<span></span>
+						</a>
+					</div>
+					<div class="footer-menu">
+						<nav>
+							<ul class="footer-nav">
+								<li><a href="index.html">Главная</a></li>
+								<li><a href="final.html">Заключительный этап</a></li>
+								<li><a href="first.html">Первый отборочный тур</a></li>
+								<li><a href="second.html">Второй отборочный тур</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="social">
+						<a href="#">
+							<img src="images/ff.png" alt="">
+						</a>
+						<a href="">
+							<img src="images/inst.png" alt="">
+						</a>
+						<a href="">
+							<img src="images/wk.png" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

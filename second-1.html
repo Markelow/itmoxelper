@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<title>Второй отборочный тур</title>
+		<link rel="stylesheet" href="css/styles.css" type="text/css">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap" rel="stylesheet">
+		<style>
+		footer{
+			margin-top: 80px;
+  	  background: #7e7e7e;
+  	  color: #dbdbdb;
+  	  font-size: 11px;
+			position: relative;
+		}
+		</style>
+		<script>
+		function myFunction(){
+		 var num = document.getElementById("myinput").value;
+		 
+		 if(num == 231){
+		 document.getElementById("answ").innerHTML = "верно";
+		}
+		else {
+		 document.getElementById("answ").innerHTML = "неверно";
+		}}
+    </script>
+	</head>
+	<body>
+		<header>
+			<div class="wrapper">
+				<div class="header-top">
+					<div class="logo">
+						<a href="#">Logo
+							<span></span>
+							<span></span>
+							<span></span>
+						</a>
+					</div>
+					<div class="name">
+						<h1>Подготовка к олимпиадам по информатике</h1>
+					</div>
+					<div class="social">
+						<a href="#">
+							<img src="images/ff.png" alt="">
+						</a>
+						<a href="">
+							<img src="images/inst.png" alt="">
+						</a>
+						<a href="">
+							<img src="images/wk.png" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="header-menu">
+				<div class="wrapper">
+					<nav>
+						<ul class="top-menu">
+							<li><a href="index.html">Главная</a></li>
+							<li><a href="final.html">Заключительный этап</a></li>
+							<li><a href="first.html">Первый отборочный тур</a></li>
+							<li><a href="second.html">Второй отборочный тур</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<section class="content-top">
+			<div class="wrapper">
+				<div class="wrapper-block">
+					<div class="left-sidebar">
+						<h2>Меню</h2>
+						<aside>
+							<nav>
+								<ul class="aside-menu">
+									<li><a href="second-1.html">Электронные таблицы</a></li>
+									<li><a href="second-2.html">Телекоммуникационные технологии</a></li>
+								</ul>
+							</nav>
+						</aside>
+					</div>
+					<div class="conent-first">
+						<h2>Электронные таблицы</h2>
+						<div class="content-wrap">
+							<div class="content-main">
+								<h3>Задание
+								</h3>
+								<p>
+									Дан фрагмент таблицы в режиме отображения формул:.
+							    </p>
+									<p>
+										<img src="images/kot.png" alt="">
+									</p>
+								<p>
+									Ячейку D2 скопировали во все ячейки диапазона D3:D9. Ячейку E2 скопировали во все ячейки диапазона E3:E9.
+									Ячейку F2 скопировали во все ячейки диапазона F3:F9.
+								</p>
+								<p>
+								Определите на какие ячейки были установлены ссылки в формуле в ячейке E2 до копирования, если:
+								</p>
+									<p>
+							<p>Х1, Х2, Х3 указывают на разные ячейки диапазона A2:C2. </p>
+										<p>Eсли последовательность 1 и 0 полученных в диапазоне ячеек F2:F9 представить в виде двоичного восьмиразрядного  числа, у которого самым старшим разрядом является значение указанное в ячейке F9, а младший соответствует значению ячейки F2 и перевести в десятичную систему счисления, то оно будет иметь значение 170.</p>
+								
+								 </p>
+								<p>
+										В ответе запишите, без пробелов и запятых, сначала значение Х1, затем Х2, затем Х3.
+							    </p>
+								<div class="ansver">
+									<input type="text" value="" id="myinput">
+								</div>
+								<div class="btn">
+									<button onclick="myFunction()">Отправить</button>
+									<p id = "answ"></p>
+								</div>
+							
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="wrapper">
+				<div class="header-top">
+					<div class="logo-footer">
+						<a href="#">Logo
+							<span></span>
+							<span></span>
+							<span></span>
+						</a>
+					</div>
+					<div class="footer-menu">
+						<nav>
+							<ul class="footer-nav">
+								<li><a href="index.html">Главная</a></li>
+								<li><a href="final.html">Заключительный этап</a></li>
+								<li><a href="first.html">Первый отборочный тур</a></li>
+								<li><a href="second.html">Второй отборочный тур</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="social">
+						<a href="#">
+							<img src="images/ff.png" alt="">
+						</a>
+						<a href="">
+							<img src="images/inst.png" alt="">
+						</a>
+						<a href="">
+							<img src="images/wk.png" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
